@@ -6,5 +6,6 @@
   "dependencies": {
     "systemjs": "^0.19.35"
   },
-  "devDependencies": {}
+  "devDependencies": {
+  }
 }
