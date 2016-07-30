@@ -9,7 +9,8 @@
         <h1>Gifs go here</h1>
     </div>
     <script>
-        System.import("app/main.js")
+        System.paths['aliasFolder/*'] = "./app/*";
+        System.import("aliasFolder/main.js")
     </script>
 </body>
 </html>
