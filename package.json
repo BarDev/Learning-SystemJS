@@ -1,12 +1,10 @@
 {
   "name": "poc-systemjs",
   "version": "1.0.0",
-  "scripts": {
-    
-  },
+  "scripts": {},
   "license": "ISC",
   "dependencies": {
+    "systemjs": "^0.19.35"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
