@@ -1,15 +1,5 @@
-<html>
-<head>
-    <meta>
-    <title></title>
-    <script src="node_modules/systemjs/dist/system.src.js"></script>
-</head>
-<body>
-    <div >
-        <h1>Hello</h1>
-    <script>
-        System.paths['aliasFolder/*'] = "./app/*";
-        System.import("aliasFolder/main.js")
-    </script>
-</body>
-</html>
+<!doctype html>
+<script src="./node_modules/systemjs/dist/system.js"></script>
+<script>
+    System.import('app/main.js');
+</script>
