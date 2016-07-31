@@ -6,7 +6,11 @@
 <body>
     <script>
         console.debug ("Page Loaded and Script Running")
-        System.import('app/main.js');
+
+        System.import('app/main.js')
+        .then(function(){
+           DomUpdater.update("insertHere", "Hello World");
+        });
     </script>
     Hi
     <div id="insertHere"></div>
