@@ -7,6 +7,3 @@ var domUpdater = function () {
         update: update,
     };
 }();
-
-
-
